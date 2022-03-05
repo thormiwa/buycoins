@@ -54,6 +54,7 @@ MIDDLEWARE = [
 
 PAYSTACK_SECRET_KEY = os.environ.get('SECRET_KEY')
 
+GRAPHQL_URL = '/graphql/'
 
 ROOT_URLCONF = 'buycoins.urls'
 

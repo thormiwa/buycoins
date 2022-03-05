@@ -5,6 +5,7 @@ class User(models.Model):
     user_account_number = models.CharField(max_length=255)
     user_bank_code = models.CharField(max_length=3)
     user_account_name = models.CharField(max_length=255)
+    is_verified = models.BooleanField(default=False)
 
     class Meta:
         verbose_name_plural = 'Users'
